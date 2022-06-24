@@ -29,6 +29,12 @@
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
+        &__link:hover,
+        &__link:focus {
+            border-color: var(--accent-color);
+            color: var(--accent-color);
+        }
+        
         svg {
             fill: currentColor;
         }
@@ -36,10 +42,6 @@
 
     
 
-    &__link:hover,
-    &__link:focus {
-        border-color: var(--accent-color);
-        color: var(--accent-color);
-    }
+    
 }
 
