@@ -3,6 +3,10 @@
 
     &__item {
         max-width: 270px;
+    
+    &:not(:first-child) {
+            margin-left: 30px;
+        }
     }
 
     &__svg {
@@ -15,9 +19,7 @@
         background-color: var(--light-background);
     }
 
-    &__item:not(:first-child) {
-        margin-left: 30px;
-    }
+    
 
     &__title {
         font-weight: 700;
@@ -27,7 +29,7 @@
         margin-top: 30px;
     }
 
-    .features-list__text {
+    &__text {
         margin-top: 10px;
 
         font-size: 14px;

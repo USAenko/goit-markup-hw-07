@@ -1,4 +1,4 @@
-.nav,
+    .nav,
 .nav__list {
     display: flex;
     align-items: baseline;
@@ -10,8 +10,7 @@
         margin-left: 50px;
         }
     
-    &__link,
-    &__link-current {
+    &__link{
         display: block;
         padding-top: 32px;
         padding-bottom: 32px;
@@ -32,27 +31,26 @@
         &:focus{
             color: var(--accent-color);
         }
-    }
+
+        &-current {
+            color: var(--accent-color);
     
-    &__link-current {
-        color: var(--accent-color);
-
-    }
-    &__link-current {
-        position: relative;
-
-        &::after {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            content: "";
-            width: 100%;
-            background-color: currentColor;
-            border: 2px solid currentColor;
-            border-radius: 4px;
-            }
         }
     
+        &-current {
+            position: relative;
     
+            &::after {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                content: "";
+                width: 100%;
+                background-color: currentColor;
+                border: 2px solid currentColor;
+                border-radius: 4px;
+            }
+        }
+    }    
 }
 
