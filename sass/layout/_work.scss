@@ -2,16 +2,16 @@
     margin-top: 50px;
     display: flex;
 
-    &__item:not(:first-child) {
+    .work-list__item:not(:first-child) {
         margin-left: 30px;
     }
 
-    &__img {
+    .work-list__img {
         position: relative;
         display: flex;
     }
 
-    &__text {
+    .work-list__text {
         display: flex;
         justify-content: center;
         align-items: center;

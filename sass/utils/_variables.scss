@@ -7,12 +7,7 @@
     --footer-opacity: rgba(255, 255, 255, 0.6);
     --light-background: #f5f4fa;
     --svg-icon: #AFB1B8;
+    --font-roboto: Roboto, sans-serif;
+    --font-logo: Raleway;
 }
 
-body {
-    font-family: Roboto, sans-serif;
-    letter-spacing: 0.03em;
-
-    background-color: var(--negative-color);
-    color: var(--primary-text-color);
-}

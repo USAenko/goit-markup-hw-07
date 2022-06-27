@@ -11,11 +11,11 @@
     font-style: normal;
     color: var(--negative-color);
 
-    &__list {
+    .footer-adress__list {
         margin-top: 9px;
     }
 
-    &__item {
+    .footer-adress__item {
         display: block;
 
         &:not(:first-child) {
@@ -25,7 +25,7 @@
 
     
 
-    &__contact {
+    .footer-adress__contact {
         color: var(--footer-opacity);
         text-decoration: none;
         font-style: normal;
@@ -45,7 +45,7 @@
         margin-left: auto;
     }
 
-    &__title {
+    .footerbox__title {
         font-weight: 700;
         font-size: 14px;
         line-height: 1.14;
@@ -54,7 +54,7 @@
         color: var(--negative-color);
     }
 
-    &__input {
+    .footerbox__input {
         margin-top: 20px;
         min-width: 358px;
         color: var(--negative-color);

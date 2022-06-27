@@ -1,7 +1,7 @@
 .features-list {
     display: flex;
 
-    &__item {
+    .features-list__item {
         max-width: 270px;
     
     &:not(:first-child) {
@@ -9,7 +9,7 @@
         }
     }
 
-    &__svg {
+    .features-list__svg {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -21,7 +21,7 @@
 
     
 
-    &__title {
+    .features-list__title {
         font-weight: 700;
         font-size: 14px;
         line-height: 1.2;
@@ -29,7 +29,7 @@
         margin-top: 30px;
     }
 
-    &__text {
+    .features-list__text {
         margin-top: 10px;
 
         font-size: 14px;

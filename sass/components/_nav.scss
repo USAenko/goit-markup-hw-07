@@ -2,15 +2,15 @@
 .nav__list {
     display: flex;
     align-items: baseline;
-    &--header {
+    .nav__list--header {
             margin-left: 93px;
         }
 
-    &__item:not(:first-child) {
+        .nav__item:not(:first-child) {
         margin-left: 50px;
         }
-    
-    &__link{
+
+    .nav__link{
         display: block;
         padding-top: 32px;
         padding-bottom: 32px;
@@ -31,26 +31,22 @@
         &:focus{
             color: var(--accent-color);
         }
+    }
+    
+    .nav__link-current {
+        position: relative;
+        color: var(--accent-color);
 
-        &-current {
-            color: var(--accent-color);
-    
+        &::after {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            content: "";
+            width: 100%;
+            background-color: currentColor;
+            border: 2px solid currentColor;
+            border-radius: 4px;
         }
-    
-        &-current {
-            position: relative;
-    
-            &::after {
-                position: absolute;
-                bottom: 0;
-                left: 0;
-                content: "";
-                width: 100%;
-                background-color: currentColor;
-                border: 2px solid currentColor;
-                border-radius: 4px;
-            }
-        }
-    }    
+    }
 }
 

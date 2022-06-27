@@ -1,12 +1,12 @@
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
+}
 
-    &--features {
-        padding-bottom: 0;
-    }
+.section--features {
+    padding-bottom: 0;
+}
 
-    &--team {
-        background-color: var(--light-background);
-    }
+.section--team {
+    background-color: var(--light-background);
 }

@@ -2,7 +2,7 @@
     margin-top: 50px;
     display: flex;
 
-    &__item {
+    .team-list__item {
         width: 270px;
         margin-left: 30px;
 
@@ -19,19 +19,19 @@
 
     
 
-    &__member {
+    .team-list__member {
         text-align: center;
         padding-top: 30px;
         padding-bottom: 30px;
     }
 
-    &__member-name {
+    .team-list__member-name {
         font-weight: 500;
         font-size: 16px;
         line-height: 1.18;
     }
 
-    &__member-position {
+    .team-list__member-position {
         margin-top: 10px;
 
         font-size: 16px;
